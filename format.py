@@ -7,19 +7,19 @@
 
 def main():
     # this function uses a while loop
-    loop_counter = 0
-    total = 0
+    counter = 0
+    sum_number = 0
 
     # input
-    user_number_as_string = int(input("Enter a positive integer: "))
-    print("")
+    number_as_string = input("Enter a positive integer: ")
     # process & output
+    print("")
     try:
-        user_number_as_integer = int(user_number_as_string)
-        while loop_counter < user_number_as_integer:
-            loop_counter = loop_counter + 1
-            total = total + loop_counter
-        print("The sum of is {0}".format(total))
+        number_as_int = int(number_as_string)
+        while counter <= number_as_int:
+            sum_number = sum_number + counter
+            counter = counter + 1
+        print("The sum is {0}".format(sum_number))
     except Exception:
         print("¯\_(ツ)_/¯ sorry fam not an integer.")
     print("\nDone.")
