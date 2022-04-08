@@ -2,7 +2,7 @@
 
 # Created by: Huzaifa Khalid
 # Created on: April 2022
-# This program shows formatting output
+# This program uses a while loop
 
 
 def main():
