@@ -2,7 +2,8 @@
 
 # Created by: Huzaifa Khalid
 # Created on: April 2022
-# This program uses a while loop
+# This program ask's the user for a positive integer 
+# and then add all the whole numbers up to that number using a while loop 
 
 
 def main():
